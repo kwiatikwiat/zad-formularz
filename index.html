@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+<body>
+    
+    <form action="https://formspree.io/alshoesbundy@gmail.com" method="POST">
+        
+<!--        Dane osobowe-->
+       
+       <label for="name">Imię:</label>
+       <input type="text" id="name" name="Imię:"><br>
+       
+            <label for="sname">Nazwisko:</label>
+       <input type="text" id="sname" name="Nazwisko:"><br>
+       
+            <label for="email">Adres e-mail:</label>
+       <input type="email" id="email" name="Adres e-mail:"><br>
+       
+            <label for="phone">Telefon:</label>
+       <input type="tel" id="phone" name="Telefon:"><br>
+       
+       
+<!--       Miejsce zamieszkania-->
+        
+        <label for="miasto">Miejsce zamieszkania:</label>
+        <select name="Miasto" id="miasto">
+        <option value="Krakow">Krakow</option>
+        <option value="Tarnow">Tarnow</option>
+        <option value="Kielce">Kielce</option>
+        <option value="Szczecin">Szczecin</option>
+        <option value="Nieciecza">Nieciecza</option>
+        <option value="Warszawa">Warszawa</option></select><br>
+        
+<!--        Wybor płci -->
+            
+        <label for="man">Mężczyzna:</label>
+        <input type="radio" id="man" name="Płeć" value="Mężczyzna"><br>
+            
+        <label for="woman">Kobieta:</label>
+        <input type="radio" id="woman" name="Płeć" value="Kobieta"><br>
+            
+<!--            Wiadomość-->
+        
+        <label for="wiadomosc">Wiadomość:</label><br>
+           <textarea name="wiadomosc" id="wiadomosc" placeholder="Tutaj zamieść swoją wiadomość"></textarea><br>
+           
+           
+<!--           Zgoda na przetwarzanie danych-->
+            
+        <label for="zgoda">Zgoda na przetwarzanie danych:</label><br>
+        <input type="checkbox" id="zgoda" name="zgoda na przetwarzanie danych" value="TAK">Wyrażam zgodę na przetwarzanie moich danych osobowych<br>
+            
+<!--            Przycisk wyślij i resetuj -->
+            
+        <button type="submit">Wyślij</button>
+        <input type="reset" name="Wyczyść dane">
+    </form>
+    
+</body>
+</html>
